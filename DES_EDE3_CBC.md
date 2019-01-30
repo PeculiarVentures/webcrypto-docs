@@ -66,7 +66,7 @@ const encData = await crypto.subtle.encrypt(
     name: "DES-EDE3-CBC",
     iv, // BufferSource
   },
-  key,  // AES key
+  key,  // DES key
   data, // BufferSource
 );
 ```
@@ -78,7 +78,7 @@ const data = await crypto.subtle.decrypt(
     name: "DES-EDE3-CBC",
     iv, // BufferSource
   },
-  key,  // AES key
+  key,  // DES key
   encData, // BufferSource
 );
 ```
@@ -90,7 +90,7 @@ const iv = crypto.getRandomValues(new Uint8Array(8));
 const wrappedKey = await crypto.subtle.wrapKey(
   "pkcs8",   // raw, pkcs8, spki, or jwk
   anyKey,    // Crypto key
-  key,       // AES public key
+  key,       // DES key
   {
     name: "DES-EDE3-CBC",
     iv, // BufferSource
@@ -103,7 +103,7 @@ const wrappedKey = await crypto.subtle.wrapKey(
 const unwrappedKey = await crypto.subtle.unwrapKey(
   "pkcs8",    // raw, pkcs8, spki, or jwk
   wrappedKey, // BufferSource
-  key,        // AES key
+  key,        // DES key
   {
     name: "DES-EDE3-CBC",
     iv, // BufferSource

@@ -80,7 +80,7 @@ const counter = crypto.getRandomValues(new Uint8Array(16));
 const wrappedKey = await crypto.subtle.wrapKey(
   "pkcs8",   // raw, pkcs8, spki, or jwk
   anyKey,    // Crypto key
-  key,       // AES public key
+  key,       // AES key
   {
     name: "AES-CTR",
     counter,     // BufferSource
