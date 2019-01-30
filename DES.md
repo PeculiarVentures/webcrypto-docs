@@ -2,8 +2,8 @@
 
 ## Mechanisms
 
-- [DES-CBC](DES-CBC.md)
-- [DES-EDE3-CBC](DES-EDE3-CBC.md)
+- [DES-CBC](DES_CBC.md)
+- [DES-EDE3-CBC](DES_EDE3_CBC.md)
 
 ## Interfaces
 
