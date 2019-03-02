@@ -10,6 +10,7 @@
   - [AES-CBC](AES_CBC.md)
   - [AES-CTR](AES_CTR.md)
   - [AES-GCM](AES_GCM.md)
+  - [AES-KW](AES_KW.md)
 - [DES](DES.md)
   - [DES-CBC](DES-CBC.md)
   - [DES-EDE3-CBC](DES-EDE3-CBC.md)
