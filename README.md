@@ -19,6 +19,7 @@
   - [ECDH](ECDH.md)
 - PBKDF
   - [PBKDF2](PBKDF2.md)
+- [HKDF](HKDF.md)
 - [HMAC](HMAC.md)
 - [SHA](SHA.md)
 
