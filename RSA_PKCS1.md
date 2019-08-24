@@ -1,6 +1,6 @@
 # RSA-PKCS1
 
-> WARNING: Is not W3 WebCrypto specification
+> WARNING: This is not compliant with the W3 WebCrypto specification.
 
 ## Interfaces
 
