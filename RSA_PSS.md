@@ -41,8 +41,6 @@ const publicKey = await crypto.subtle.importKey(
   {
     name: "RSA-PSS",
     hash: "SHA-256",
-    publicExponent: new Uint8Array([1, 0, 1]),
-    modulusLength: 2048,
   },
   false,
   ["verify"],
