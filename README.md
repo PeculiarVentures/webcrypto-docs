@@ -6,7 +6,7 @@
   - [RSASSA-PKCS1-v1_5](RSA_SSA.md)
   - [RSA-PSS](RSA_PSS.md)
   - [RSA-OAEP](RSA_OAEP.md)
-  - [RSA-PKCS1](RSA_PKCS1.md)
+  - [RSAES-PKCS1-v1_5](RSA_ES.md)
 - AES
   - [AES-CBC](AES_CBC.md)
   - [AES-CTR](AES_CTR.md)
